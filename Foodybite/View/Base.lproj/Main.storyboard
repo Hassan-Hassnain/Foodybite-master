@@ -1028,6 +1028,17 @@
                                                     </constraints>
                                                 </collectionViewCellContentView>
                                                 <size key="customSize" width="318" height="236"/>
+                                                <connections>
+                                                    <outlet property="distance" destination="GPS-Ke-dGO" id="cFx-Py-Ndl"/>
+                                                    <outlet property="foodType" destination="R8W-6V-qtX" id="BB2-3C-m1G"/>
+                                                    <outlet property="friendImage1" destination="aAC-n2-vi3" id="weD-Ln-kAA"/>
+                                                    <outlet property="friendImage2" destination="to0-FR-JHZ" id="jSS-eL-d1P"/>
+                                                    <outlet property="friendImage3" destination="lwO-vW-4ba" id="1UV-ZU-C0o"/>
+                                                    <outlet property="friendImage4" destination="7Sw-SF-XQv" id="oH8-VK-GMF"/>
+                                                    <outlet property="restaurantName" destination="0Qm-uS-lmE" id="nVP-kG-2mN"/>
+                                                    <outlet property="restaurantOrFoodImage" destination="shV-XU-A8K" id="c6r-Qv-Kxk"/>
+                                                    <outlet property="totalFriends" destination="iTo-aO-vRA" id="WLe-Vw-kQa"/>
+                                                </connections>
                                             </collectionViewCell>
                                         </cells>
                                         <connections>

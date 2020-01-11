@@ -44,6 +44,9 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "PrototypeCollectionViewCell", for: indexPath) as! TrendingCollectionViewCell
+        cell.restaurantOrFoodImage.image = array[indexPath.row]
+        cell.distance.text = "\(indexPath.row) km"
+        cell.restaurantName.text = "Dummy - \(indexPath.row)"
         return cell
     }
     
