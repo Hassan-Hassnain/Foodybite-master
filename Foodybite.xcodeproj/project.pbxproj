@@ -34,6 +34,7 @@
 		3C939FE723BF927800ED0230 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C939FE523BF927800ED0230 /* LaunchScreen.storyboard */; };
 		3CB6546523C1CC73001AFC21 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6546423C1CC73001AFC21 /* FadeTransition.swift */; };
 		3CB6546723C1D369001AFC21 /* Entering_LHS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6546623C1D369001AFC21 /* Entering_LHS.swift */; };
+		3CDDB6FD23CA28110078B0C7 /* UIViewGradientColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDDB6FC23CA28100078B0C7 /* UIViewGradientColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		3C939FE823BF927800ED0230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CB6546423C1CC73001AFC21 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
 		3CB6546623C1D369001AFC21 /* Entering_LHS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entering_LHS.swift; sourceTree = "<group>"; };
+		3CDDB6FC23CA28100078B0C7 /* UIViewGradientColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewGradientColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				3C939FE023BF927500ED0230 /* Main.storyboard */,
 				3C939FE523BF927800ED0230 /* LaunchScreen.storyboard */,
 				3C5B341E23C88EEF00BBA5B8 /* MyCustomComponents.swift */,
+				3CDDB6FC23CA28100078B0C7 /* UIViewGradientColors.swift */,
 				3C114B3223C8EE9900EC2B5A /* HomeTableViewCells */,
 			);
 			path = View;
@@ -276,6 +279,7 @@
 				3CB6546723C1D369001AFC21 /* Entering_LHS.swift in Sources */,
 				3C58058023C0CFB400AD936C /* LoginViewController.swift in Sources */,
 				3C939FDF23BF927500ED0230 /* EntryViewController.swift in Sources */,
+				3CDDB6FD23CA28110078B0C7 /* UIViewGradientColors.swift in Sources */,
 				3C939FDB23BF927500ED0230 /* AppDelegate.swift in Sources */,
 				3C29A29523C12F7A0089B951 /* CreateNewAccountViewController.swift in Sources */,
 				3C58058223C0F2FB00AD936C /* Entering_RHS.swift in Sources */,

@@ -17,19 +17,20 @@ import UIKit
         }
     }
 }
-@IBDesignable class CustomUIView1: UIView{
+@IBDesignable class CustomUIView1: UIView {
     @IBInspectable var cornerRadius: CGFloat = 0 {
         didSet{
             Update.allCornerRadius(component: self, radius: self.cornerRadius)
         }
     }
 }
-@IBDesignable class CustomUILabel: UILabel{
+@IBDesignable class CustomUILabel: UILabel {
     @IBInspectable var cornerRadius: CGFloat = 0 {
         didSet{
             Update.allCornerRadius(component: self, radius: self.cornerRadius)
         }
     }
+
 }
 
 //MARK: - Custom UIButton Class
