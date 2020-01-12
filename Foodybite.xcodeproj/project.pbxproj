@@ -10,6 +10,7 @@
 		3C29A28F23C11B660089B951 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C29A28E23C11B660089B951 /* Constants.swift */; };
 		3C29A29323C122A30089B951 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C29A29223C122A30089B951 /* ForgetPasswordViewController.swift */; };
 		3C29A29523C12F7A0089B951 /* CreateNewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C29A29423C12F7A0089B951 /* CreateNewAccountViewController.swift */; };
+		3C444AD823CB77B200E63897 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C444AD723CB77B200E63897 /* CategoryCollectionViewCell.swift */; };
 		3C58058023C0CFB400AD936C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C58057F23C0CFB400AD936C /* LoginViewController.swift */; };
 		3C58058223C0F2FB00AD936C /* Entering_RHS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C58058123C0F2FB00AD936C /* Entering_RHS.swift */; };
 		3C59640323C9CAF40005A326 /* TrendingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C59640223C9CAF40005A326 /* TrendingCollectionViewCell.swift */; };
@@ -43,6 +44,7 @@
 		3C29A28E23C11B660089B951 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3C29A29223C122A30089B951 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 		3C29A29423C12F7A0089B951 /* CreateNewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewAccountViewController.swift; sourceTree = "<group>"; };
+		3C444AD723CB77B200E63897 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		3C58057F23C0CFB400AD936C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3C58058123C0F2FB00AD936C /* Entering_RHS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entering_RHS.swift; sourceTree = "<group>"; };
 		3C59640223C9CAF40005A326 /* TrendingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -83,12 +85,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3C114B3223C8EE9900EC2B5A /* HomeTableViewCells */ = {
+		3C114B3223C8EE9900EC2B5A /* HomeCollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
 				3C59640223C9CAF40005A326 /* TrendingCollectionViewCell.swift */,
+				3C444AD723CB77B200E63897 /* CategoryCollectionViewCell.swift */,
 			);
-			path = HomeTableViewCells;
+			path = HomeCollectionViewCells;
 			sourceTree = "<group>";
 		};
 		3C114B3323C8EF9100EC2B5A /* Home */ = {
@@ -117,7 +120,7 @@
 				3C939FE523BF927800ED0230 /* LaunchScreen.storyboard */,
 				3C5B341E23C88EEF00BBA5B8 /* MyCustomComponents.swift */,
 				3CDDB6FC23CA28100078B0C7 /* UIViewGradientColors.swift */,
-				3C114B3223C8EE9900EC2B5A /* HomeTableViewCells */,
+				3C114B3223C8EE9900EC2B5A /* HomeCollectionViewCells */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C5B341F23C88EF000BBA5B8 /* MyCustomComponents.swift in Sources */,
+				3C444AD823CB77B200E63897 /* CategoryCollectionViewCell.swift in Sources */,
 				3CB6546723C1D369001AFC21 /* Entering_LHS.swift in Sources */,
 				3C58058023C0CFB400AD936C /* LoginViewController.swift in Sources */,
 				3C939FDF23BF927500ED0230 /* EntryViewController.swift in Sources */,

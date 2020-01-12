@@ -20,7 +20,8 @@ class K {
     static let emailTextFieldIcon = "email_white"
     static let passwordTextFieldIcon = "password_white"
     //Collction View Cell
-    static let collectionViewCell = "PrototypeCollectionViewCell"
+    static let TrendingCollectionViewCell = "TrendingCollectionViewCell"
+    static let CategoryCollectionViewCell = "CategoryCollectionViewCell"
     
     
     
