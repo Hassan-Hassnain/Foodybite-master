@@ -33,6 +33,7 @@ class HomeViewController: UIViewController {
         
         
     }
+    
     @IBAction func filterButton(_ sender: Any) {
         
     }
@@ -68,6 +69,9 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
             cell.categoryLabel.text = "Item-\(indexPath.row)"
             return cell
         }
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 20
     }
     
     

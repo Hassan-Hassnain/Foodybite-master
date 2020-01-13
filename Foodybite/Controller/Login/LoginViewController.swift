@@ -9,6 +9,20 @@
 import UIKit
 
 class LoginViewController: UIViewController, UITextFieldDelegate {
+    
+    
+    
+    
+    //Short Circuit to requied View
+    override func viewWillAppear(_ animated: Bool) {
+        performSegue(withIdentifier: K.segueToHomeView, sender: self)
+    }
+    
+    
+    
+    
+    
+    
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
