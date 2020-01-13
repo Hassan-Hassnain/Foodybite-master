@@ -16,6 +16,7 @@
 		3C59640323C9CAF40005A326 /* TrendingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C59640223C9CAF40005A326 /* TrendingCollectionViewCell.swift */; };
 		3C5B341D23C88CAA00BBA5B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B341C23C88CAA00BBA5B8 /* HomeViewController.swift */; };
 		3C5B341F23C88EF000BBA5B8 /* MyCustomComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5B341E23C88EEF00BBA5B8 /* MyCustomComponents.swift */; };
+		3C633F7823CCBF4900EB5DA1 /* FriendsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C633F7723CCBF4900EB5DA1 /* FriendsCollectionViewCell.swift */; };
 		3C67523E23C208760069CD0E /* JosefinSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C67523323C208750069CD0E /* JosefinSans-SemiBoldItalic.ttf */; };
 		3C67523F23C208760069CD0E /* JosefinSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C67523423C208750069CD0E /* JosefinSans-LightItalic.ttf */; };
 		3C67524023C208760069CD0E /* JosefinSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C67523523C208750069CD0E /* JosefinSans-Bold.ttf */; };
@@ -50,6 +51,7 @@
 		3C59640223C9CAF40005A326 /* TrendingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCollectionViewCell.swift; sourceTree = "<group>"; };
 		3C5B341C23C88CAA00BBA5B8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3C5B341E23C88EEF00BBA5B8 /* MyCustomComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomComponents.swift; sourceTree = "<group>"; };
+		3C633F7723CCBF4900EB5DA1 /* FriendsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCollectionViewCell.swift; sourceTree = "<group>"; };
 		3C67523323C208750069CD0E /* JosefinSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		3C67523423C208750069CD0E /* JosefinSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-LightItalic.ttf"; sourceTree = "<group>"; };
 		3C67523523C208750069CD0E /* JosefinSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			children = (
 				3C59640223C9CAF40005A326 /* TrendingCollectionViewCell.swift */,
 				3C444AD723CB77B200E63897 /* CategoryCollectionViewCell.swift */,
+				3C633F7723CCBF4900EB5DA1 /* FriendsCollectionViewCell.swift */,
 			);
 			path = HomeCollectionViewCells;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				3C59640323C9CAF40005A326 /* TrendingCollectionViewCell.swift in Sources */,
 				3CB6546523C1CC73001AFC21 /* FadeTransition.swift in Sources */,
 				3C5B341D23C88CAA00BBA5B8 /* HomeViewController.swift in Sources */,
+				3C633F7823CCBF4900EB5DA1 /* FriendsCollectionViewCell.swift in Sources */,
 				3C939FDD23BF927500ED0230 /* SceneDelegate.swift in Sources */,
 				3C29A29323C122A30089B951 /* ForgetPasswordViewController.swift in Sources */,
 				3C29A28F23C11B660089B951 /* Constants.swift in Sources */,

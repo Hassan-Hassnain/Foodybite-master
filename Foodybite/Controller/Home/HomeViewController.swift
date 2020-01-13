@@ -12,12 +12,13 @@ class HomeViewController: UIViewController {
     
     let restaurants  = [ #imageLiteral(resourceName: "RestaurantImage"), #imageLiteral(resourceName: "RestaurantImage"), #imageLiteral(resourceName: "RestaurantImage"), #imageLiteral(resourceName: "RestaurantImage"), #imageLiteral(resourceName: "RestaurantImage"), #imageLiteral(resourceName: "RestaurantImage"), #imageLiteral(resourceName: "RestaurantImage"), #imageLiteral(resourceName: "RestaurantImage"), #imageLiteral(resourceName: "RestaurantImage") ]
     let categories  = [ #imageLiteral(resourceName: "DummyCategoryImage1"), #imageLiteral(resourceName: "DummyCategoryImage2"), #imageLiteral(resourceName: "DummyCategoryImage3"), #imageLiteral(resourceName: "DummyCategoryImage1"), #imageLiteral(resourceName: "DummyCategoryImage2"), #imageLiteral(resourceName: "DummyCategoryImage3")]
-    let friends  = [ #imageLiteral(resourceName: "dummyFriendsImage"), #imageLiteral(resourceName: "dummyFriendsImage"),#imageLiteral(resourceName: "dummyFriendsImage"), #imageLiteral(resourceName: "dummyFriendsImage") ]
+    let friends  = [ #imageLiteral(resourceName: "dummyFriendsImage"), #imageLiteral(resourceName: "dummyFriendsImage"),#imageLiteral(resourceName: "dummyFriendsImage"), #imageLiteral(resourceName: "dummyFriendsImage") , #imageLiteral(resourceName: "dummyFriendsImage"), #imageLiteral(resourceName: "dummyFriendsImage"),#imageLiteral(resourceName: "dummyFriendsImage"), #imageLiteral(resourceName: "dummyFriendsImage") , #imageLiteral(resourceName: "dummyFriendsImage"), #imageLiteral(resourceName: "dummyFriendsImage"),#imageLiteral(resourceName: "dummyFriendsImage"), #imageLiteral(resourceName: "dummyFriendsImage") , #imageLiteral(resourceName: "dummyFriendsImage"), #imageLiteral(resourceName: "dummyFriendsImage"),#imageLiteral(resourceName: "dummyFriendsImage"), #imageLiteral(resourceName: "dummyFriendsImage") , #imageLiteral(resourceName: "dummyFriendsImage"), #imageLiteral(resourceName: "dummyFriendsImage"),#imageLiteral(resourceName: "dummyFriendsImage"), #imageLiteral(resourceName: "dummyFriendsImage") ]
     
     @IBOutlet weak var tendingCollectionView: UICollectionView!
     
     @IBOutlet weak var categoryCollectionView: UICollectionView!
     
+    @IBOutlet weak var friendsCollectionView: UICollectionView!
     
     
     @IBOutlet weak var searchBar: UISearchBar!
@@ -47,10 +48,13 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
             totalTrendingRestaurents.text = "See All(\(restaurants.count))"
             return restaurants.count
         }
-        
-        
+        if collectionView == categoryCollectionView {
             totalCategories.text = "See All(\(categories.count))"
             return categories.count
+        }
+        
+        totalFriends.text = "See All(\(friends.count))"
+        return friends.count
         
     }
     
@@ -63,16 +67,20 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
             cell.restaurantName.text = "Dummy - \(indexPath.row)"
             return cell
         }
-        else{
+        if collectionView == categoryCollectionView {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CategoryCell", for: indexPath) as! CategoryCollectionViewCell
             cell.categoryImage.image = categories[indexPath.row]
             cell.categoryLabel.text = "Item-\(indexPath.row)"
             return cell
         }
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FriendsCell", for: indexPath) as! FriendsCollectionViewCell
+        
+        cell.friendImage.image = friends[indexPath.row]
+        return cell
+        
     }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return 20
-    }
+  
     
     
 }
